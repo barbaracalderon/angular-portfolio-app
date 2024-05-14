@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-notfound',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './notfound.component.css'
 })
 export class NotfoundComponent {
-
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('BC | NotFound')
+  }
 }
