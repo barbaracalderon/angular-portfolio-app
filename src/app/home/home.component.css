@@ -1,11 +1,3 @@
-.row {
-    /* background-image: linear-gradient(to right, rgb(0, 0, 0), transparent), url('../../assets/hands.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay; */
-}
-
 .home-present {
     height: 80vh;
     display: flex;
