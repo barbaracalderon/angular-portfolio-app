@@ -1,0 +1,29 @@
+.row {
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0), transparent), url('../../assets/hands.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; */
+}
+
+.home-present {
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.home-present-content {
+    max-width: 65%;
+    align-items: flext-start;
+}
+
+.home-present-details {
+    display: flex;
+}
+
+.home-present-p {
+    padding: 10px;
+    margin: 5px;
+    max-width: 200px;
+}
