@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ProjectCardComponent } from '../project-card/project-card.component';
 import { Project } from '../_models/project';
+import { Tag } from '../_models/tags';
 
 @Component({
   selector: 'app-projects',
@@ -18,7 +19,7 @@ export class ProjectsComponent {
     summary: 'Test description',
     description: '',
     projectLink: '',
-    tags: ['Angular', 'Typescript'],
+    tags: [Tag.ANGULAR, Tag.JAVA],
     pictures: []
   }
 

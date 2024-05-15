@@ -7,8 +7,8 @@
     <div class="card-footer">
         <div class="d-flex flex-wrap justify-content-center">
 
-            @for(tag of project.tags; track project.tags.indexOf) {
-                <div class="tag me-2 mb1">{{ tag }}</div>
+            @for(tag of project.tags; track project.tags) {
+                <div class="tag me-2 mb1" [style.background-color]="tag.color">{{ tag }}</div>
             }
 
         </div>

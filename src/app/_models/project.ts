@@ -1,4 +1,5 @@
 // Data consumed by our project cards
+import { Tag } from "./tags";
 
 export interface Project {
     id: number;
@@ -7,5 +8,5 @@ export interface Project {
     description: string;
     projectLink: string;
     pictures: string[];
-    tags: string[];
+    tags: Tag[];
 }
