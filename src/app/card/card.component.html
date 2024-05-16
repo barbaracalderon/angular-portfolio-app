@@ -1,13 +1,16 @@
 <div class="card shadow text-center" style="max-width: 350px; min-width: 350;">
     <div class="card-body">
-        <h5 class="card-title">{{projectName}}</h5>
-        <p class="card-text">This is a sample for demonstration purposes.</p>
+        <h5 class="card-title">{{ card.name }}</h5>
+        <p class="card-text">{{ card.summary }}</p>
         <button class="btn btn-primary">View More</button>
     </div>
     <div class="card-footer">
         <div class="d-flex flex-wrap justify-content-center">
-            <div class="tag me-2 mb1">Angular</div>
-            <div class="tag me-2 mbl">Typescript</div>
+
+            @for(tag of card.tags; track card.tags) {
+                <div class="tag me-2 mb1" [style.background-color]="tag.color">{{ tag }}</div>
+            }
+
         </div>
     </div>
 </div>
