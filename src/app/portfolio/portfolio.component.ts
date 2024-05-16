@@ -15,15 +15,15 @@ export class PortfolioComponent {
 
   projects: Card[] = [
     {
-    id: 0,
-    name: 'Diário Oficial da União Restful API',
-    summary: 'Test description',
-    description: '',
-    projectLink: '',
-    tags: [Tag.PYTHON, Tag.JAVA],
-    pictures: []
-  }
-]
+      id: 0,
+      name: 'Diário Oficial da União Restful API',
+      summary: 'Test description',
+      description: '',
+      projectLink: '',
+      tags: [Tag.PYTHON, Tag.FLASK, Tag.HTML5, Tag.CSS3, Tag.JAVASCRIPT, Tag.INSOMNIA, Tag.POSTGRESQL, Tag.SQLALCHEMY],
+      pictures: []
+    }
+  ]
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('BC | Portfolio')

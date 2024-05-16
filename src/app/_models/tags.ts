@@ -11,6 +11,7 @@ export class Tag {
     static readonly JDBC = new Tag('JDBC', 'darkred');
     static readonly POSTGRESQL = new Tag('PostgreSQL', 'darkblue')
     static readonly SQL = new Tag('SQL', 'darkblue');
+    static readonly SQLALCHEMY = new Tag('SQLAlchemy', 'darkgreen');
     static readonly PYTHON = new Tag('Python', 'darkgreen');
     static readonly FLASK = new Tag('Python', 'darkgreen');
     static readonly BEAUTIFULSOUP = new Tag('Beautiful Soup', 'darkgreen');
@@ -22,11 +23,11 @@ export class Tag {
     static readonly RESTAPI = new Tag('Rest API', 'black');
     static readonly INSOMNIA = new Tag('Insomnia', 'black');
     static readonly POSTMAN = new Tag('Postman', 'black');
-    static readonly TYPESCRIPT = new Tag('Typescript', 'yellow');
-    static readonly JAVASCRIPT = new Tag('Javascript', 'yellow');
-    static readonly HTML5 = new Tag('HTML5', 'yellow');
-    static readonly CSS3 = new Tag('CSS3', 'yellow');
-    static readonly BOOTSTRAP = new Tag('Bootstrap', 'yellow');
+    static readonly TYPESCRIPT = new Tag('Typescript', 'orange');
+    static readonly JAVASCRIPT = new Tag('Javascript', 'orange');
+    static readonly HTML5 = new Tag('HTML5', 'orange');
+    static readonly CSS3 = new Tag('CSS3', 'orange');
+    static readonly BOOTSTRAP = new Tag('Bootstrap', 'orange');
 
 
     private constructor(private readonly key: string, public readonly color: string) {
