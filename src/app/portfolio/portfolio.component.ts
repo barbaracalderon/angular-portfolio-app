@@ -13,15 +13,17 @@ import { Tag } from '../_models/tags';
 })
 export class PortfolioComponent {
 
-  project: Card = {
+  projects: Card[] = [
+    {
     id: 0,
-    name: 'Sample Angular App',
+    name: 'Diário Oficial da União Restful API',
     summary: 'Test description',
     description: '',
     projectLink: '',
     tags: [Tag.PYTHON, Tag.JAVA],
     pictures: []
   }
+]
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('BC | Portfolio')
