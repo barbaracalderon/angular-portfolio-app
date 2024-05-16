@@ -1,7 +1,7 @@
 // Data consumed by our project cards
 import { Tag } from "./tags";
 
-export interface CardModel {
+export interface Card {
     id: number;
     name: string;
     summary: string;

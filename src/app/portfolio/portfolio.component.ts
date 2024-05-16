@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { CardComponent } from '../card/card.component';
-import { CardModel } from '../_models/card';
+import { Card } from '../_models/card';
 import { Tag } from '../_models/tags';
 
 @Component({
@@ -13,13 +13,13 @@ import { Tag } from '../_models/tags';
 })
 export class PortfolioComponent {
 
-  portfolio: CardModel = {
+  project: Card = {
     id: 0,
     name: 'Sample Angular App',
     summary: 'Test description',
     description: '',
     projectLink: '',
-    tags: [Tag.ANGULAR, Tag.JAVA],
+    tags: [Tag.PYTHON, Tag.JAVA],
     pictures: []
   }
 

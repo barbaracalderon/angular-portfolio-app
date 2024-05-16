@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CardModel } from '../_models/card';
+import { Card } from '../_models/card';
 
 @Component({
   selector: 'app-project-card',
@@ -9,5 +9,5 @@ import { CardModel } from '../_models/card';
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-  @Input() cardModel = {} as CardModel;
+  @Input() card = {} as Card;
 }
