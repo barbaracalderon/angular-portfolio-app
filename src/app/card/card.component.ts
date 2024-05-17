@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Card } from '../_models/card';
-import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
+import { BsModalService, BsModalRef, ModalOptions } from 'ngx-bootstrap/modal';
+import { ModalComponent } from '../modal/modal.component';
 
 @Component({
   selector: 'app-project-card',
@@ -19,6 +20,12 @@ export class CardComponent {
   }
 
   OpenCardModal() {
-    this.bsModalRef = this.modalService.show('');
+    const modalOptions: ModalOptions = {
+      class: "modal-lg",
+      initialState: {
+        card: this.card
+      }
+    }
+    this.bsModalRef = this.modalService.show(ModalComponent, modalOptions);
   }
 }
