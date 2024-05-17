@@ -7,8 +7,18 @@
     <carousel>
 
         @for (picture of card.pictures; track card.id) {
-            <slide><img src={{picture}} alt="slide" style="display: block; width: 100%;"></slide>
+        <slide><img src={{picture}} alt="slide" style="display: block; width: 100%;"></slide>
         }
 
     </carousel>
+    <h3 class="mt-2">Description</h3>
+    <p>{{card.description}}</p>
+    <p><strong>Github</strong>: <a href={{card.projectLink}} target="_blank">click here</a></p>
+
+    <hr>
+    <div class="d-flex flex-wrap">
+        @for (tag of card.tags; track card.id) {
+            <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+        }
+    </div>
 </div>
