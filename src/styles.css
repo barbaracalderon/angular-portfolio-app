@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.tag {
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: rgb(90, 117, 129);
+    color: white;
+}
