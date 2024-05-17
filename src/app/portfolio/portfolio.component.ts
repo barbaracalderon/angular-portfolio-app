@@ -21,7 +21,7 @@ export class PortfolioComponent {
       description: '',
       projectLink: '',
       tags: [Tag.PYTHON, Tag.FLASK, Tag.HTML5, Tag.CSS3, Tag.JAVASCRIPT, Tag.INSOMNIA, Tag.POSTGRESQL, Tag.SQLALCHEMY],
-      pictures: []
+      pictures: ["../../assets/hands.jpg", "../../assets/hands.jpg", "../../assets/hands.jpg"]
     }
   ]
 
