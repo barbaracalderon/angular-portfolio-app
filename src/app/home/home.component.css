@@ -1,21 +1,40 @@
 .home-present {
-    height: 80vh;
+    height: 79vh;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    background-color: yellow;
+    margin: 0px 50px;
 }
 
 .home-present-content {
-    max-width: 65%;
-    align-items: flext-start;
+    max-width: 80%;
+    background-color: blue;
 }
 
 .home-present-details {
     display: flex;
+    background-color: red;
+    margin: 0px 50px;
+    justify-content: space-evenly;
 }
 
 .home-present-p {
     padding: 10px;
     margin: 5px;
     max-width: 200px;
+    background-color: pink;
+}
+
+.home-present-center {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.home-present-image {
+    background-color: gray;
+    align-self: center;
 }
