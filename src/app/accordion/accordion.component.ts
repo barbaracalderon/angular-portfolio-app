@@ -15,5 +15,4 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 })
 export class AccordionComponent {
   customClass = 'customClass';
-  isFirstOpen = true;
 }
