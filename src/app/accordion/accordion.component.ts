@@ -7,11 +7,11 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
   selector: 'app-accordion',
   standalone: true,
   imports: [
-    BrowserAnimationsModule,
     AccordionModule
   ],
   templateUrl: './accordion.component.html',
-  styleUrl: './accordion.component.css'
+  styleUrl: './accordion.component.css',
+  providers: [BrowserAnimationsModule]
 })
 export class AccordionComponent {
 

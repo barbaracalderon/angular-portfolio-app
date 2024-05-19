@@ -3,7 +3,6 @@ import { Title } from '@angular/platform-browser';
 import { CardComponent } from '../card/card.component';
 import { Card } from '../_models/card';
 import { Tag } from '../_models/tags';
-import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 @Component({
   selector: 'app-projects',
