@@ -1,12 +1,12 @@
 .contact-card {
-    max-width: 800px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #27333f;
     border: 2px solid #b0caf063;
-    padding: 20px;
+    padding: 70px 20px;
     border-radius: 8px;
     color: white;
     text-align: center;
