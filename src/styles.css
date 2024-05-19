@@ -92,6 +92,12 @@ button:hover {
     margin-bottom: 3rem;
 }
 
+.default-subtopic {
+    font-size: 2rem;
+    color: #00ff00;
+    margin-bottom: 3rem;
+}
+
 blockquote {
     font-size: 1.5rem;
     color: #8c98a3;
