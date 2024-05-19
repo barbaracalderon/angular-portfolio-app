@@ -19,7 +19,7 @@
   
   .footer p {
     margin: 0;
-    color: #adb5bd;
+    color: #b0caf063;
     flex: 1;
   }
   
@@ -28,7 +28,7 @@
   }
   
   .footer-icons a {
-    color: #adb5bd;
+    color: #b0caf063;
     margin-left: 10px;
     position: relative;
     text-decoration: none;
