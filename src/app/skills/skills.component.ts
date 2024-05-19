@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { AccordionComponent } from '../accordion/accordion.component';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [],
+  imports: [AccordionComponent],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styleUrls: [
+    './skills.component.css',
+    '/src/styles.css'
+  ]
 })
 export class SkillsComponent {
   constructor(private titleService: Title) {
