@@ -1,16 +1,127 @@
-<accordion [isAnimated]="true">
-    <accordion-group heading="Languages." class="accordion-title">
+<div class="accordion-left">
+
+  <accordion [isAnimated]="true">
+
+    <accordion-group 
+    heading="Languages." 
+    [panelClass]="customClass"
+    [isOpen]="isFirstOpen"
+    class="accordion-title">
       This content is straight in the template.
     </accordion-group>
-    <accordion-group heading="University.">
+
+    <accordion-group 
+    heading="University." 
+    panelClass="customClass"
+    class="accordion-title">
       <p>Some content</p>
     </accordion-group>
-    <accordion-group heading="Technical.">
+
+    <accordion-group 
+    heading="Technical."
+    panelClass="customClass"
+    class="accordion-title">
       <p>Some content</p>
     </accordion-group>
-    <accordion-group heading="Techs I use.">
-      <p>Some content</p>
+    
+    <accordion-group 
+    heading="Techs I use."
+    panelClass="customClass"
+    class="accordion-title">
+      <div class="tech-board">
+          <div class="tech-cell">
+              <i class="devicon-java-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-spring-original-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-hibernate-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-postgresql-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-sqlite-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-sqlalchemy-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-angular-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-typescript-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-javascript-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-html5-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-css3-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-bootstrap-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-python-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-flask-original"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-poetry-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-selenium-original"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-playwright-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-plotly-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-intellij-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-pycharm-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-vscode-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-insomnia-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-postman-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-swagger-plain"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-pytest-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-npm-original-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-docker-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-git-plain-wordmark"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-github-original"></i>
+          </div>
+          <div class="tech-cell">
+              <i class="devicon-jira-plain-wordmark"></i>
+          </div>
+      </div>
     </accordion-group>
-    Hello
+  
   </accordion>
   
+</div>

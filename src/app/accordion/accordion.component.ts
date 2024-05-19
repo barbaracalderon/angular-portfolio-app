@@ -14,5 +14,6 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
   providers: [BrowserAnimationsModule]
 })
 export class AccordionComponent {
-
+  customClass = 'customClass';
+  isFirstOpen = true;
 }

@@ -122,3 +122,46 @@ blockquote {
     margin: 80px;
     text-align: start;
 }
+
+
+.card.customClass {
+    color: #ffffff;
+}
+
+.card.customClass .card-header {
+    background-color: #27333f;
+}
+
+
+.panel.customClass {
+    background-color: #141a20;
+}
+
+.accordion-title .btn{
+    text-decoration: none;
+    color: #8c98a3;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.accordion-title .btn:hover, .btn:active{
+    color: #f8f9fa;
+}
+
+.acordion-title .btn::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #00FF00; 
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.accordion-title .btn:hover::after {
+    width: 100%;
+    left: 0;
+    background: #00FF00;
+}
+
