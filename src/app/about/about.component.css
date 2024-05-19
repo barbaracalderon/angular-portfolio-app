@@ -32,3 +32,7 @@
     }
   }
   
+  .about-picture{
+    max-width: 820px;
+    margin: 0.5rem 0rem 2rem 0rem;
+  }
