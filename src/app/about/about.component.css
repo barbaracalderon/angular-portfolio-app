@@ -30,6 +30,9 @@
     .tech-board {
       grid-template-columns: repeat(2, 1fr);
     }
+    .about-picture {
+      width: 250px;
+    }
   }
   
   .about-picture{
