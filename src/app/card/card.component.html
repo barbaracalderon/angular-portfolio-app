@@ -1,0 +1,16 @@
+<div class="card card-layout" style="max-width: 350px; min-width: 350;">
+    <div class="card-body">
+        <h5 class="card-title">{{ card.name }}</h5>
+        <p class="card-text">{{ card.summary }}</p>
+        <button class="button-small"(click)="OpenCardModal()"><a>View More</a></button>
+    </div>
+    <div class="card-footer">
+        <div class="d-flex flex-wrap justify-content-center">
+
+            @for(tag of card.tags; track card.tags) {
+                <div class="tag me-2 mb1" [style.background-color]="tag.color">{{ tag }}</div>
+            }
+
+        </div>
+    </div>
+</div>

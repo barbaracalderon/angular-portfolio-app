@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #27333f;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.nav-link {
+    color: #adb5bd;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #f8f9fa;
+}
+
+.nav-number {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-right: 5px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.bg-dark {
+    background-color: hsl(212, 26%, 14%) !important;
+}

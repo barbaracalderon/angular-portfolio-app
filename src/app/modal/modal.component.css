@@ -1,0 +1,32 @@
+.modal-content {
+    background-color: #27333f;
+    color: white;
+}
+
+.modal-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8c98a3;
+    line-height: 3rem;
+}
+
+.modal-description{
+    font-weight: bold;
+    align-content: center;
+}
+
+img {
+    margin-bottom: 1rem;
+}
+
+.p-modal{
+    color: #8c98a3;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+}
+
+.github {
+    color: white;
+    position: relative;
+    text-decoration: none;
+}

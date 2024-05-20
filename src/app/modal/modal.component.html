@@ -1,0 +1,26 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <h1 class="modal-title">{{ card.name }}</h1>
+        <button class="btn-close" (click)="bsModalRef.hide()"></button>
+    </div>
+    
+    <div class="modal-body">
+        <carousel>
+    
+            @for (picture of card.pictures; track card.id) {
+            <slide><img src={{picture}} alt="slide" style="display: block; width: 100%;"></slide>
+            }
+    
+        </carousel>
+        <h1 class="mt-2 modal-description">Description</h1>
+        <p class="p-modal">{{card.description}}</p>
+        <p class="p-modal"><strong><span class="default-highlight">Github</span></strong>: <a href={{card.projectLink}} target="_blank" class="github">{{ card.projectLink }}</a></p>
+    
+        <hr>
+        <div class="d-flex flex-wrap">
+            @for (tag of card.tags; track card.id) {
+                <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+            }
+        </div>
+    </div>
+</div>
