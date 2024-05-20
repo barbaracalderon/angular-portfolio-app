@@ -1,9 +1,11 @@
-<div class="container">
-    <div class="row">
-        @for(project of projects; track project.id) {
-            <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px">
-                <app-project-card [card]="project"></app-project-card>
-            </div>
-        }
+<div class="align-items-center default-container">
+    <div class="content">
+        <div class="row">
+            @for(project of projects; track project.id) {
+                <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px">
+                    <app-project-card [card]="project"></app-project-card>
+                </div>
+            }
+        </div>
     </div>
 </div>

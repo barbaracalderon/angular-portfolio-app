@@ -65,7 +65,6 @@ button:hover {
 .default-container {
     background: #141a20;
     padding: 40px 20px;
-    border-radius: 8px;
     height: 88vh;
     overflow-y: auto;
     display: flex;

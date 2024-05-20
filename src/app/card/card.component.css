@@ -1,0 +1,12 @@
+.card-layout {
+    background-color: #27333f;
+    color: white;
+    margin-top: 50px;
+    border: 2px solid #b0caf063;
+}
+
+.card-title{
+    font-size: 1.75rem;;
+    line-height: 2rem;
+    font-weight: bold;
+}
