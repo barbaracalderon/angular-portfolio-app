@@ -1,3 +1,14 @@
+
+@media (max-width: 768px) {
+    .home-title, .home-author {
+        font-size: 50px !important;
+    }
+
+    .home-author {
+        line-height: 4rem !important;
+    }
+  }
+
 .home-container {
     background: #141a20;
     padding: 40px 20px;

@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+  .contact-title {
+      font-size: 32px !important;
+  }
+}
+
 .contact-card {
     max-width: 700px;
     display: flex;
