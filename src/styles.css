@@ -7,6 +7,7 @@
     border-radius: 25px;
     background-color: #5a7581;
     color: white;
+    margin-top: 10px;
 }
 
 html,
@@ -56,6 +57,20 @@ button {
     font-size: 1.25rem;
     transition: transform 0.3s ease;
     color: white;
+    font-weight: bold;
+  }
+
+  .button-small {
+    background-color: #141a2000;
+    border: 2px solid #00FF00;
+    border-radius: 8px;
+    padding: 10px 5px;
+    width: 125px;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
   }
   
 button:hover {
@@ -163,4 +178,3 @@ blockquote {
     left: 0;
     background: #00FF00;
 }
-

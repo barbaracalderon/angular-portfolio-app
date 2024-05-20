@@ -5,8 +5,22 @@
     border: 2px solid #b0caf063;
 }
 
+.card-body{
+    margin: 5px 0px;
+}
+.card-footer{
+    margin: 5px
+}
+
 .card-title{
+    color: #8c98a3;
     font-size: 1.75rem;;
     line-height: 2rem;
     font-weight: bold;
+}
+
+.card-text{
+    margin: 25px 0px;
+    color: white;
+    font-size: 1rem;
 }
