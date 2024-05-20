@@ -8,7 +8,10 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
   standalone: true,
   imports: [CarouselModule],
   templateUrl: './modal.component.html',
-  styleUrl: './modal.component.css'
+  styleUrls: 
+  ['./modal.component.css',
+  '/src/styles.css',
+  ]
 })
 export class ModalComponent {
 
