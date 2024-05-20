@@ -1,0 +1,14 @@
+.not-found{
+    height: 50vh;
+    padding: 3rem;
+}
+
+.not-found-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.not-found-p{
+    font-size: 2rem;
+}
