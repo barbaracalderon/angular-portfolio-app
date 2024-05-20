@@ -13,7 +13,7 @@ export class Tag {
     static readonly SQL = new Tag('SQL', '#355158');
     static readonly SQLALCHEMY = new Tag('SQLAlchemy', '#4a6a77');
     static readonly PYTHON = new Tag('Python', '#4a6a77');
-    static readonly FLASK = new Tag('Python', '#4a6a77');
+    static readonly FLASK = new Tag('Flask', '#4a6a77');
     static readonly BEAUTIFULSOUP = new Tag('Beautiful Soup', '#4a6a77');
     static readonly PLAYWWRIGHT = new Tag('Playwright', '#4a6a77');
     static readonly SELENIUM = new Tag('Selenium Driver', '#4a6a77');
