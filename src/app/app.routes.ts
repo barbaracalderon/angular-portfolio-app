@@ -12,5 +12,6 @@ export const routes: Routes = [
     { path: 'skills', component: SkillsComponent },
     { path: 'portfolio', component: PortfolioComponent },
     { path: 'contact', component: ContactComponent },
+    { path: '', component: HomeComponent},
     { path: '**', component: NotfoundComponent }
 ];
