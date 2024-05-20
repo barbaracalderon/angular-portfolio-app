@@ -1,8 +1,8 @@
-<div class="card shadow text-center" style="max-width: 350px; min-width: 350;">
+<div class="card card-layout" style="max-width: 350px; min-width: 350;">
     <div class="card-body">
         <h5 class="card-title">{{ card.name }}</h5>
         <p class="card-text">{{ card.summary }}</p>
-        <button class="btn btn-primary" (click)="OpenCardModal()">View More</button>
+        <button class="button-small"(click)="OpenCardModal()"><a>View More</a></button>
     </div>
     <div class="card-footer">
         <div class="d-flex flex-wrap justify-content-center">

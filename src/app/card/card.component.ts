@@ -8,7 +8,10 @@ import { ModalComponent } from '../modal/modal.component';
   standalone: true,
   imports: [],
   templateUrl: './card.component.html',
-  styleUrl: './card.component.css',
+  styleUrls: [
+    './card.component.css',
+    '/src/styles.css'
+  ],
   providers: [BsModalService],
 })
 
