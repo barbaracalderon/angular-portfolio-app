@@ -1,4 +1,7 @@
 .card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: #27333f;
     color: white;
     margin-top: 50px;
@@ -7,9 +10,7 @@
 
 .card-body{
     margin: 5px 0px;
-}
-.card-footer{
-    margin: 5px
+    text-align: center;
 }
 
 .card-title{
@@ -23,4 +24,5 @@
     margin: 25px 0px;
     color: white;
     font-size: 1rem;
+    line-height: 1.75rem;
 }
