@@ -28,6 +28,14 @@ export class Tag {
     static readonly HTML5 = new Tag('HTML5', '#192129');
     static readonly CSS3 = new Tag('CSS3', '#192129');
     static readonly BOOTSTRAP = new Tag('Bootstrap', '#192129');
+    static readonly PYTEST = new Tag('Pytest', '#4a6a77');
+    static readonly JUNIT = new Tag('JUnit', '#5a7581');
+    static readonly MOCKITO = new Tag('Mockito', '#5a7581');
+    static readonly DOCKER = new Tag('Docker', '#355158');
+    static readonly DOCKERCOMPOSE = new Tag('Docker Compose', '#355158');
+    static readonly VUEJS = new Tag('Vue.JS', '#192129');
+    static readonly HIBERNATE = new Tag('Hibernate', '#5a7581');
+
 
 
     private constructor(private readonly key: string, public readonly color: string) {
