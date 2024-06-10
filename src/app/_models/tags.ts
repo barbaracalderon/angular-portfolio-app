@@ -35,6 +35,11 @@ export class Tag {
     static readonly DOCKERCOMPOSE = new Tag('Docker Compose', '#355158');
     static readonly VUEJS = new Tag('Vue.JS', '#192129');
     static readonly HIBERNATE = new Tag('Hibernate', '#5a7581');
+    static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
+    static readonly SQLITE = new Tag('SQLite', '#355158');
+
+
+
 
 
 

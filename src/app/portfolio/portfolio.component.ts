@@ -15,7 +15,15 @@ import { Tag } from '../_models/tags';
 export class PortfolioComponent {
 
   projects: Card[] = [
-
+    {
+      id: 1,
+      name: 'The Pokédex Project',
+      summary: 'The Pokédex project is a comprehensive system developed to manage and provide detailed information about Pokémon. It consists of a backend API built with FastAPI and a frontend interface developed using Angular. Docker is used for deploy and Pytest for unit tests.',
+      description: 'In this project, I aimed to build a comprehensive Pokédex API and a user-friendly frontend interface to enhance the Pokémon experience. My primary objective here was to showcase knowledge in a variety of tools and development services. These included the creation of an API with FastAPI (Python), handling robust data size and asynchronous requests; showcasing alphabetical order for the Pokémon list and data; designing a dark-theme interface for improved user experience; developing an intuitive frontend interface that allows for easy browsing and access to Pokémon information; exporting Pokémon data to an XML file; using Gitflow for version control and collaborative development; Pytest for unit testing to maintain code quality and reliability; and Docker and Docker-Compose for building and deploying the application efficiently. With these tools and objectives in place, the Pokédex Project was created and is ready for testing, use, and deployment.',
+      projectLink: 'https://github.com/barbaracalderon/pokedex-api',
+      tags: [Tag.PYTHON, Tag.PYTEST, Tag.FASTAPI, Tag.ANGULAR, Tag.BOOTSTRAP, Tag.CSS3, Tag.HTML5, Tag.DOCKER, Tag.DOCKERCOMPOSE, Tag.SQLITE],
+      pictures: ["../../assets/pokedex_01.png", "../../assets/pokedex_02.png", "../../assets/pokedex_03.png", "../../assets/pokedex_04.png", "../../assets/pokedex_05.png", "../../assets/pokedex_06.png", "../../assets/pokedex_07.png"]
+    },
     {
       id: 2,
       name: 'TeamTrack',
@@ -116,7 +124,7 @@ export class PortfolioComponent {
       pictures: ["../../assets/lm_01.png", "../../assets/lm_02.png", "../../assets/lm_03.png"]
     },
 
-  
+
   ]
 
 
