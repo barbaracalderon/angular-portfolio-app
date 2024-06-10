@@ -14,6 +14,6 @@ import { AccordionComponent } from '../accordion/accordion.component';
 })
 export class SkillsComponent {
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | Skills')
+    this.titleService.setTitle('BC | Education')
   }
 }

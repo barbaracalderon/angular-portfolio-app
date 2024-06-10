@@ -13,7 +13,7 @@ export class Tag {
     static readonly SQL = new Tag('SQL', '#355158');
     static readonly SQLALCHEMY = new Tag('SQLAlchemy', '#4a6a77');
     static readonly PYTHON = new Tag('Python', '#4a6a77');
-    static readonly FLASK = new Tag('Python', '#4a6a77');
+    static readonly FLASK = new Tag('Flask', '#4a6a77');
     static readonly BEAUTIFULSOUP = new Tag('Beautiful Soup', '#4a6a77');
     static readonly PLAYWWRIGHT = new Tag('Playwright', '#4a6a77');
     static readonly SELENIUM = new Tag('Selenium Driver', '#4a6a77');
@@ -28,6 +28,19 @@ export class Tag {
     static readonly HTML5 = new Tag('HTML5', '#192129');
     static readonly CSS3 = new Tag('CSS3', '#192129');
     static readonly BOOTSTRAP = new Tag('Bootstrap', '#192129');
+    static readonly PYTEST = new Tag('Pytest', '#4a6a77');
+    static readonly JUNIT = new Tag('JUnit', '#5a7581');
+    static readonly MOCKITO = new Tag('Mockito', '#5a7581');
+    static readonly DOCKER = new Tag('Docker', '#355158');
+    static readonly DOCKERCOMPOSE = new Tag('Docker Compose', '#355158');
+    static readonly VUEJS = new Tag('Vue.JS', '#192129');
+    static readonly HIBERNATE = new Tag('Hibernate', '#5a7581');
+    static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
+    static readonly SQLITE = new Tag('SQLite', '#355158');
+
+
+
+
 
 
     private constructor(private readonly key: string, public readonly color: string) {
