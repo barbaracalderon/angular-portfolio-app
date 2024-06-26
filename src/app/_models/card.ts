@@ -1,4 +1,3 @@
-// Data consumed by our project cards
 import { Tag } from "./tags";
 
 export interface Card {
