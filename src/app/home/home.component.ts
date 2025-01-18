@@ -6,9 +6,7 @@ import { RouterLinkActive, RouterOutlet, RouterLink } from '@angular/router';
   selector: 'app-home',
   standalone: true,
   imports: [
-    RouterOutlet,
     RouterLink,
-    RouterLinkActive
   ],
   templateUrl: './home.component.html',
   styleUrls: [
@@ -25,6 +23,7 @@ export class HomeComponent implements OnInit {
     "Software Developer.",
     "Backend Engineer.",
     "Software Engineer.",
+    "Fullstack Developer.",
     "Code Enthusiast.",
   ];
 
