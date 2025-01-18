@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
     "Software Developer.",
     "Backend Engineer.",
     "Software Engineer.",
+    "Fullstack Developer.",
     "Code Enthusiast.",
   ];
 
