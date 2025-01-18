@@ -37,3 +37,8 @@
 .bg-dark {
     background-color: hsl(212, 26%, 14%) !important;
 }
+
+.surname {
+    font-size: 20px;
+    font-weight: bold;
+}

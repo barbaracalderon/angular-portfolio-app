@@ -20,13 +20,13 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-a {
+.a-green {
     color: #adb5bd;
     position: relative;
     text-decoration: none;
 }
 
-a::after {
+.a-green::after {
     content: '';
     position: absolute;
     width: 0;
@@ -38,14 +38,14 @@ a::after {
     transition: width 0.3s ease, background-color 0.3s ease;
 }
 
-a:hover::after {
+.a-green:hover::after {
     width: 100%;
     left: 0;
     background: #00FF00;
 }
 
-a:hover,
-a:active {
+.a-green:hover,
+.a-green:active {
     color: #f8f9fa;
 }
 
