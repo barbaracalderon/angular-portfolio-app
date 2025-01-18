@@ -2,9 +2,14 @@
 
 This is my personal portfolio website built with Angular, Typescript, HTML5, CSS3, Bootstrap, Ngx-Bootstrap, DevIcons and Angular Material. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://angular-portfolio-app-omega.vercel.app/)
 
+- **Current Version**: `1.1.0`  
+- **Released on**: `January 2025`
+
 ![Barbara Calderon's Angular Portfolio App](portfolio.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Author
 
@@ -61,3 +66,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## About
 
 This portfolio was designed and developed by myself, Barbara Calderon, using frontend software skills for a dynamic and responsive web application.
+
+## Version History
+
+| Version | Date       | Description                                      |
+|---------|------------|--------------------------------------------------|
+| 1.1.0   | Jan 2025   | Updated content on home and about me pages. Fixed window width issues. Carousel anchor tags no longer green style. Resolved issue with carousel indicators not displaying. Added license.|
+| 1.0.1   | Jun 2024   | Added more projects to the portfolio page.       |
+| 1.0.0   | May 2024   | Initial release of the portfolio.                |
