@@ -125,6 +125,15 @@ export class PortfolioComponent {
     },
     {
       id: 13,
+      name: "Scholargate",
+      summary: 'Scholargate is an academic management system with dynamic user roles, built using Angular and Bootstrap for easy student, teacher, and class management.',
+      description: "Scholargate is an academic management system developed to streamline tasks for administrators, teachers, and students. It allows administrators to register students, teachers, and classes, while teachers can enter grades, and students can view their academic performance. Built with Angular, Bootstrap, CSS, and localStorage, the system ensures a responsive, user-friendly interface and personalized content based on user roles. Scholargate was developed as part of the Fullstack course at SENAI/SC by Lab365, aiming to simplify educational management processes.",
+      projectLink: 'https://github.com/barbaracalderon/scholargate',
+      tags: [Tag.ANGULAR, Tag.BOOTSTRAP, Tag.HTML5, Tag.TYPESCRIPT, Tag.CSS3],
+      pictures: ["../../assets/sch_01.png", "../../assets/sch_02.png", "../../assets/sch_03.png"]
+    },
+    {
+      id: 14,
       name: 'The Music Time Machine Project',
       summary: 'Choose a day in time and automatically create a Spotify playlist of the top songs playing in the world in that moment.',
       description: "This project involves creating a program that interacts with Spotify to transport users back in time musically by retrieving and playing songs from a specific date in the past. To run the Music Time Machine Project, you need Python installed on your computer, a Spotify account, and a Spotify app created through the Spotify Developer Dashboard. The app created in the Developer Dashboard will serve as the project’s base, providing necessary credentials like CLIENT_ID, CLIENT_SECRET, and REDIRECT_URI. These credentials are essential for authenticating and interacting with Spotify's API, and should be securely stored as environment variables in your operating system to protect them from unauthorized access. Once the setup is complete, users can input a specific date in the format YYYY-MM-DD (year-month-day) to use the application. The program will then fetch and play songs that were popular on Spotify on that date, effectively creating a musical time-travel experience. The project includes detailed instructions on how to create a Spotify app and obtain the necessary credentials, as well as how to set environment variables. Screenshots of the app running are also provided for reference. The Music Time Machine Project showcases an ability to integrate Python with external APIs, demonstrating skills in application development and secure credential management. The goal of the project is to provide a nostalgic musical journey for users, allowing them to relive the hits from a specific date in the past through Spotify.",
@@ -133,7 +142,7 @@ export class PortfolioComponent {
       pictures: ["../../assets/mt_01.png", "../../assets/mt_02.png", "../../assets/mt_03.png", "../../assets/mt_04.png"]
     },
     {
-      id: 14,
+      id: 15,
       name: 'Library Manager API',
       summary: 'This project is a RESTful API for managing a simple library. It uses JDK 17 and PostgreSQL for the database with the specified database schema.',
       description: "The Library Manager API offers various endpoints to handle different entities within a library system, such as librarians, books, members, loans, and visitors. The API allows for creating, reading, updating, and deleting records for each of these entities, ensuring comprehensive management capabilities for the library. The database schema for the project was designed by myself and defined in such a way to allow for structured and organized data storage. The endpoints for managing librarians include operations to create new librarians, retrieve all or specific librarians, update their details, delete them, return their emails, and update their passwords. For loans, the API supports creating new loans, retrieving all or specific loans, updating loan details, and deleting loans. Book management endpoints enable operations to create, retrieve, update, and delete books, as well as list all book titles and authors. The member endpoints allow for the creation of new members, retrieval of all or specific members, updating member details, deleting members, listing member names, and phone numbers, and updating member phone numbers. Similarly, visitor endpoints cover creating new visitors, retrieving all or specific visitors, updating visitor details, and deleting visitors.",
@@ -142,7 +151,7 @@ export class PortfolioComponent {
       pictures: ["../../assets/lm_01.png", "../../assets/lm_02.png", "../../assets/lm_03.png"]
     },
     {
-      id: 15,
+      id: 16,
       name: 'LabQuiz',
       summary: 'This project consists of an HTML/CSS form called LabQuiz, aimed at testing knowledge of HTML and CSS.',
       description: "LabQuiz is a project containing index.html (form structure), styles.css (styling), and README.md (project details). To use it, open index.html in a browser, fill out the form, and submit (styling only). The form's CSS includes text centering, custom colors, spacing, and border styling. This simple project helps practice HTML, CSS, and form design. It was developed as part of a practical exercise to practice frontend coding skills.",
@@ -151,7 +160,7 @@ export class PortfolioComponent {
       pictures: ["../../assets/labquiz_01.png"]
     },
     {
-      id: 16,
+      id: 17,
       name: 'Gradebook',
       summary: 'Gradebook is a simple web application for managing student registration, their grades, and subjects.',
       description: "This application manages student registration and subject tracking. Users can register students, navigate between sections (Register, Home, Subjects, Students), manage subjects and grades, and filter or remove students. It uses HTML for structure, CSS for styling, JavaScript for functionality, Bootstrap for responsiveness, localStorage for browser-based data storage, and the ViaCEP API for fetching addresses.",
@@ -160,7 +169,7 @@ export class PortfolioComponent {
       pictures: ["../../assets/gradebook_01.png", "../../assets/gradebook_02.png", "../../assets/gradebook_03.png", "../../assets/gradebook_04.png"]
     },
     {
-      id: 17,
+      id: 18,
       name: 'LabScore',
       summary: "LabScore is a simple but useful project for testing and practicing skills related to HTML, CSS, JavaScript, and design.",
       description: "LabScore is a small project focused on inputs and outputs to practice HTML5, CSS3, and JavaScript by creating an interactive web page. It allows users to enter grades and student names, calculate averages, display the multiplication table for a chosen number, answer a quiz with confirmations, calculate grades for a specific subject, and determine the highest number among four inputs. The interface is user-friendly and responsive, dynamically showing and hiding results using JavaScript.",
