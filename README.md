@@ -2,8 +2,8 @@
 
 This is my personal portfolio website built with Angular, Typescript, HTML5, CSS3, Bootstrap, Ngx-Bootstrap, DevIcons and Angular Material. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://angular-portfolio-app-omega.vercel.app/)
 
-- **Current Version**: `1.1.1`  
-- **Released on**: `January 2025`
+- **Current Version**: `1.2.0`  
+- **Released on**: `February 2025`
 
 ![Barbara Calderon's Angular Portfolio App](portfolio.png)
 
@@ -71,6 +71,7 @@ This portfolio was designed and developed by myself, Barbara Calderon, using fro
 
 | Version | Date       | Description                                      |
 |---------|------------|--------------------------------------------------|
+| 1.2.0   | Feb 2025   | Added 5 projects to portfolio. Resolved Vite overlay issue.|
 | 1.1.1   | Jan 2025   | Updated content on about me page. Resolved issues with dependencies alerts by upgrading.|
 | 1.1.0   | Jan 2025   | Updated content on home and about me pages. Fixed window width issues. Carousel anchor tags no longer green style. Resolved issue with carousel indicators not displaying. Added license.|
 | 1.0.1   | Jun 2024   | Added more projects to the portfolio page.       |
