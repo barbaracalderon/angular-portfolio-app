@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Card } from '../_models/card';
-import { BsModalService, BsModalRef, ModalOptions } from 'ngx-bootstrap/modal';
+import { MatDialog } from '@angular/material/dialog';
 import { ModalComponent } from '../modal/modal.component';
 
 @Component({
@@ -8,27 +8,19 @@ import { ModalComponent } from '../modal/modal.component';
   standalone: true,
   imports: [],
   templateUrl: './card.component.html',
-  styleUrls: [
-    './card.component.css',
-    '/src/styles.css'
-  ],
-  providers: [BsModalService],
+  styleUrls: ['./card.component.css'],
 })
-
 export class CardComponent {
   @Input() card = {} as Card;
-  bsModalRef? : BsModalRef;
 
-  constructor(private modalService: BsModalService) {
-  }
+  constructor(private dialog: MatDialog) {}
 
-  OpenCardModal() {
-    const modalOptions: ModalOptions = {
-      class: "modal-lg",
-      initialState: {
+  openCardModal() {
+    this.dialog.open(ModalComponent, {
+      width: '800px',
+      data: {
         card: this.card
       }
-    }
-    this.bsModalRef = this.modalService.show(ModalComponent, modalOptions);
+    });
   }
 }

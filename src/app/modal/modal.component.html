@@ -1,26 +1,37 @@
 <div class="modal-content">
     <div class="modal-header">
-        <h1 class="modal-title">{{ card.name }}</h1>
-        <button class="btn-close" (click)="bsModalRef.hide()"></button>
+      <h1 class="modal-title">{{ card.name }}</h1>
+      <button mat-icon-button (click)="dialogRef.close()" class="close-button">
+        <mat-icon>close</mat-icon>
+      </button>
     </div>
     
     <div class="modal-body">
-        <carousel>
-    
-            @for (picture of card.pictures; track card.id) {
-            <slide><img src={{picture}} alt="slide" style="display: block; width: 100%;"></slide>
-            }
-    
-        </carousel>
-        <h1 class="mt-2 modal-description">Description</h1>
-        <p class="p-modal">{{card.description}}</p>
-        <p class="p-modal"><strong><span class="default-highlight">Github</span></strong>: <a href={{card.projectLink}} target="_blank" class="github" class="a-green">{{ card.projectLink }}</a></p>
-    
-        <hr>
-        <div class="d-flex flex-wrap">
-            @for (tag of card.tags; track card.id) {
-                <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
-            }
-        </div>
+      <swiper-container [config]="swiperConfig">
+        @for (picture of card.pictures; track $index) {
+          <swiper-slide>
+            <img [src]="picture" alt="slide" class="swiper-image">
+          </swiper-slide>
+        }
+      </swiper-container>
+  
+      <h1 class="mt-2 modal-description">Description</h1>
+      <p class="p-modal">{{ card.description }}</p>
+      <p class="p-modal">
+        <strong><span class="default-highlight">Github</span></strong>: 
+        <a [href]="card.projectLink" target="_blank" class="github a-green">
+          {{ card.projectLink }}
+        </a>
+      </p>
+  
+      <mat-divider></mat-divider>
+      
+      <div class="d-flex flex-wrap">
+        @for (tag of card.tags; track $index) {
+          <mat-chip class="me-2 mb-1" [style.background-color]="tag.color">
+            {{ tag }}
+          </mat-chip>
+        }
+      </div>
     </div>
 </div>

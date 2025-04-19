@@ -1,3 +1,4 @@
+@import '../../styles.css';
 @media (max-width: 768px) {
   .contact-title {
       font-size: 32px !important;
@@ -129,7 +130,6 @@ h1 {
     color: #f8f9fa;
   }
   
-  /* Font Awesome Icons */
   .fab,
   .fas {
     font-size: 35px;

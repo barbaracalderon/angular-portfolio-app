@@ -1,4 +1,4 @@
-
+@import '../../styles.css';
 @media (max-width: 768px) {
     .home-title, .home-author {
         font-size: 50px !important;
