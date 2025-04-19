@@ -1,41 +1,95 @@
-.accordion-left{
-    max-width: 820px;
+
+.accordion-left {
+  max-width: 820px;
+  margin: 0; 
+  width: 100%;
 }
 
-.accordion-text{
-    font-size: 1rem;
+mat-expansion-panel {
+  margin-bottom: 15px;
+  background-color: #141a20;
+  color: white;
+  border-radius: 8px !important;
+  border-left: 4px solid #00FF00;
+}
+
+mat-expansion-panel-header {
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: #27333f !important;
+  color: white !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.accordion-text {
+  padding: 15px 20px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: white;
+}
+
+mat-panel-title {
+  color: white !important;
+  font-weight: 600;
+}
+
+.default-highlight {
+  color: #00FF00;
+  font-weight: 600;
 }
 
 .tech-board {
-    display: grid;
-    max-width: 820px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    background-color: #141a20;
-    padding: 20px;
-    border-radius: 8px;
+  display: grid;
+  max-width: 820px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background-color: #141a20;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tech-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #27333f;
+  border: 2px solid #00FF00;
+  padding: 10px;
+  margin: 20px 30px;
+  border-radius: 8px;
+  color: white;
+  font-size: 6rem;
+}
+
+.tech-cell i {
+  color: white;
+  font-size: 3rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .tech-board {
+    grid-template-columns: repeat(1, 1fr);
   }
   
   .tech-cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #27333f;
-    border: 2px solid #00FF00;
-    padding: 10px;
-    margin: 20px 30px;
-    border-radius: 8px;
-    color: white;
-    font-size: 6rem;
+    margin: 10px 0;
   }
-  
-  .tech-cell img {
-    max-width: 50px;
-    max-height: 50px;
-  }
-  
-  @media (max-width: 768px) {
-    .tech-board {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
+}
+
+mat-expansion-panel {
+  transition: all 0.3s ease;
+}
+
+mat-expansion-panel-header:hover {
+  background-color: #1e2a36 !important;
+}

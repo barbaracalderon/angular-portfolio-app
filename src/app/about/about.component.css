@@ -1,3 +1,5 @@
+@import '../../styles.css';
+
   @media (max-width: 768px) {
     .about-picture {
       width: 250px;

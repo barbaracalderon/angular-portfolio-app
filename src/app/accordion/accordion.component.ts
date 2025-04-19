@@ -1,17 +1,22 @@
 import { Component } from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AccordionModule } from 'ngx-bootstrap/accordion';
-
+import { 
+  MatAccordion,
+  MatExpansionPanel,
+  MatExpansionPanelHeader,
+  MatExpansionPanelTitle,
+} from '@angular/material/expansion';
 
 @Component({
   selector: 'app-accordion',
   standalone: true,
   imports: [
-    AccordionModule
+    MatAccordion,
+    MatExpansionPanel,
+    MatExpansionPanelHeader,
+    MatExpansionPanelTitle,
   ],
   templateUrl: './accordion.component.html',
-  styleUrl: './accordion.component.css',
-  providers: [BrowserAnimationsModule]
+  styleUrls: ['./accordion.component.css']
 })
 export class AccordionComponent {
   customClass = 'customClass';

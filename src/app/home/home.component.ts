@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { RouterLinkActive, RouterOutlet, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +11,6 @@ import { RouterLinkActive, RouterOutlet, RouterLink } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrls: [
     './home.component.css',
-    '/src/styles.css'
   ]
 })
 
