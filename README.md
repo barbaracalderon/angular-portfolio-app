@@ -1,12 +1,22 @@
 # BC | Angular Portfolio App
 
-This is my personal portfolio website built with **Angular 19**, Typescript, HTML5, CSS3, Bootstrap, Bootstrap Icons, RxJS, Vite, Angular Material and tests in Jasmine. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://angular-portfolio-app-omega.vercel.app/)
+This is my personal portfolio website built with **Angular 21**, Typescript, HTML5, CSS3, Bootstrap, Bootstrap Icons, RxJS, Vite, Angular Material and tests in Jasmine. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://angular-portfolio-app-omega.vercel.app/)
 
 ![Barbara Calderon's Angular Portfolio App](portfolio.png)
 
-This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7 and then upgraded to version 19.2.7 on April 2025. Check [version history](#version-history) for more information.
+This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7 and then upgraded to version 21.0.6 on December 2025. In order to upgrade your own version, follow the commands laid out when you type `ng update`.
 
-_This project's last tag for Angular 17 was tag v1.3.0, you can download and use the portfolio in this version still._
+Check [version history](#version-history) for more information.
+
+**Angular 21**: _This project's current version uses Angular 21 (December 2025 update). Successfully upgraded from Angular 19 without breaking changes._
+
+**Angular 19**: _This project's last tag for Angular 19 was tag [v2.0.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v2.0.0)._
+
+**Angular 17**: _This project's last tag for Angular 17 was tag [v1.3.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v1.3.0), you can download and use the portfolio in this version still._
+
+
+
+
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -26,13 +36,13 @@ The potfolio has sections of home, about, education, portfolio projects and cont
 
 ## Technologies Used
 
-- **Angular 19** - Latest version with standalone components.
-- **TypeScript 5.8** - Strongly typed JavaScript superset.
-- **Angular Material 19** - Material Design components.
+- **Angular 21** - Latest version with standalone components.
+- **TypeScript 5.9.3** - Strongly typed JavaScript superset.
+- **Angular Material 21** - Material Design components.
 - **Bootstrap 5** - Responsive CSS framework.
 - **Bootstrap Icons** - Clean SVG icons.
 - **Swiper.js 11** - Modern touch slider.
-- **Angular CLI 19** - Official build tooling.
+- **Angular CLI 21** - Official build tooling.
 - **RxJS 7** - Reactive programming library.
 - **Vite** - Next-gen frontend tooling (via Angular CLI).
 - **Jasmine 5** - Behavior-driven testing framework.
@@ -76,6 +86,7 @@ This portfolio was designed and developed by myself, Barbara Calderon, using fro
 
 | Version | Date       | Description                                      |
 |---------|------------|--------------------------------------------------|
+| [2.1.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v2.1.0)   | Dec 2025 | Upgrade Angular v19 to v21. 
 | [2.0.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v2.0.0)   | Apr 2025   | `!breaking changes` Upgrade Angular v17 to v19. Replace "accordion" with "expansion". Replace "carousel" with "swiper". Remove ngx-bootstrap lib. Refactor breaking code. Update tests with Jasmine framework.|
 | [1.3.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v1.3.0)   | Mar 2025   | Added "forecast-cli" project to portfolio.|
 | [1.2.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v1.2.0)   | Feb 2025   | Added 5 projects to portfolio. Resolved Vite overlay issue.|
