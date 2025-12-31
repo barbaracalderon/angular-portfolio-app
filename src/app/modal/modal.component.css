@@ -1,7 +1,7 @@
 .mat-mdc-dialog-container {
-    --mdc-dialog-container-color: transparent !important;
-    --mdc-dialog-container-shape: 0 !important;
-    --mdc-dialog-container-elevation: none !important;
+    --mat-dialog-container-color: transparent !important;
+    --mat-dialog-container-shape: 0 !important;
+    --mat-dialog-container-elevation: none !important;
     padding: 0 !important;
   }
   
@@ -184,7 +184,7 @@
   
   .tag {
     color: white !important;
-    --mdc-chip-label-text-color: white !important;
+    --mat-chip-label-text-color: white !important;
     font-weight: 500;
     filter: brightness(0.9);
   }
