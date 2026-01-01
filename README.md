@@ -86,6 +86,7 @@ This portfolio was designed and developed by myself, Barbara Calderon, using fro
 
 | Version | Date       | Description                                      |
 |---------|------------|--------------------------------------------------|
+| [2.1.1](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v2.1.1)   | Jan 2026 | Update education. 
 | [2.1.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v2.1.0)   | Dec 2025 | Upgrade Angular v19 to v21. 
 | [2.0.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v2.0.0)   | Apr 2025   | `!breaking changes` Upgrade Angular v17 to v19. Replace "accordion" with "expansion". Replace "carousel" with "swiper". Remove ngx-bootstrap lib. Refactor breaking code. Update tests with Jasmine framework.|
 | [1.3.0](https://github.com/barbaracalderon/angular-portfolio-app/releases/tag/v1.3.0)   | Mar 2025   | Added "forecast-cli" project to portfolio.|
