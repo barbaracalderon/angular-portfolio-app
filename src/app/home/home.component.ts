@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { RouterLink } from '@angular/router';
 
@@ -14,7 +14,9 @@ import { RouterLink } from '@angular/router';
   ]
 })
 
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
+
+  private timeoutId: ReturnType<typeof setTimeout> | null = null;
 
   dynamicText: string = "";
   phrases: string[] =[
@@ -42,6 +44,12 @@ export class HomeComponent implements OnInit {
     this.type();
   }
 
+  ngOnDestroy(): void {
+    if (this.timeoutId !== null) {
+      clearTimeout(this.timeoutId);
+    }
+  }
+
   type() {
     const currentPhrase = this.phrases[this.currentPhraseIndex];
     if (this.isDeleting) {
@@ -54,14 +62,14 @@ export class HomeComponent implements OnInit {
 
     if (!this.isDeleting && this.currentCharIndex === currentPhrase.length) {
       this.isDeleting = true;
-      setTimeout(() => this.type(), this.delayBetweenPhrases);
+      this.timeoutId = setTimeout(() => this.type(), this.delayBetweenPhrases);
     } else if (this.isDeleting && this.currentCharIndex === 0) {
       this.isDeleting = false;
       this.currentPhraseIndex = (this.currentPhraseIndex + 1) % this.phrases.length;
-      setTimeout(() => this.type(), 500);
+      this.timeoutId = setTimeout(() => this.type(), 500);
     } else {
       const speed = this.isDeleting ? this.deletingSpeed : this.typingSpeed;
-      setTimeout(() => this.type(), speed);
+      this.timeoutId = setTimeout(() => this.type(), speed);
     }
   }
 
