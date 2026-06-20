@@ -1,3 +1,4 @@
+/// <reference types="jasmine" />
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 
@@ -22,8 +23,6 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  // C1 regression guard: the header must never own a router-outlet.
-  // Routing output belongs exclusively to ContentComponent.
   it('should not contain a router-outlet element', () => {
     const outlet = fixture.nativeElement.querySelector('router-outlet');
     expect(outlet).toBeNull();
