@@ -1,4 +1,4 @@
-import { Component, Inject, AfterViewInit } from '@angular/core';
+import { Component, Inject, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { register } from 'swiper/element/bundle';
 import { SwiperOptions } from 'swiper/types';
@@ -30,6 +30,7 @@ register();
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ModalComponent implements AfterViewInit {
+  @ViewChild('swiperRef') swiperRef!: ElementRef;
   card: Card;
   swiperConfig: SwiperOptions = {
     pagination: {
@@ -61,10 +62,8 @@ export class ModalComponent implements AfterViewInit {
   }
 
   ngAfterViewInit() {
-    const swiperEl = document.querySelector('swiper-container');
-    if (swiperEl) {
-      Object.assign(swiperEl, this.swiperConfig);
-      swiperEl.initialize();
-    }
+    const swiperEl = this.swiperRef.nativeElement;
+    Object.assign(swiperEl, this.swiperConfig);
+    swiperEl.initialize();
   }
 }
