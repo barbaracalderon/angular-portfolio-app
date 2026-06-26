@@ -37,7 +37,7 @@ export class Tag {
     static readonly HIBERNATE = new Tag('Hibernate', '#5a7581');
     static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
     static readonly SQLITE = new Tag('SQLite', '#355158');
-    static readonly PYDANTIC = new Tag('Pydantic', '##4a6a77');
+    static readonly PYDANTIC = new Tag('Pydantic', '#4a6a77');
     static readonly GOLANG = new Tag('Golang', '#457189');
     static readonly RABBITMQ = new Tag('RabbitMQ', '#457189' )
 
