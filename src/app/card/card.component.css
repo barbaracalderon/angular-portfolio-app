@@ -1,6 +1,8 @@
 @import '../../styles.css';
 
 .card-layout {
+    max-width: 350px;
+    min-width: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
