@@ -18,6 +18,4 @@ import {
   templateUrl: './accordion.component.html',
   styleUrls: ['./accordion.component.css']
 })
-export class AccordionComponent {
-  customClass = 'customClass';
-}
+export class AccordionComponent {}

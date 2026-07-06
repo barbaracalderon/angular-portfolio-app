@@ -3,15 +3,15 @@ import { Title } from '@angular/platform-browser';
 import { AccordionComponent } from '../accordion/accordion.component';
 
 @Component({
-  selector: 'app-skills',
+  selector: 'app-education',
   standalone: true,
   imports: [AccordionComponent],
-  templateUrl: './skills.component.html',
+  templateUrl: './education.component.html',
   styleUrls: [
-    './skills.component.css',
+    './education.component.css',
   ]
 })
-export class SkillsComponent {
+export class EducationComponent {
   constructor(private titleService: Title) {
     this.titleService.setTitle('BC | Education')
   }

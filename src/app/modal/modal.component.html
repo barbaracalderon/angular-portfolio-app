@@ -9,7 +9,7 @@
     
     <div class="modal-body">
       <div class="swiper-container-wrapper">
-        <swiper-container [config]="swiperConfig" init="false">
+        <swiper-container #swiperRef [config]="swiperConfig" init="false">
           @for (picture of card.pictures; track $index) {
             <swiper-slide>
               <div class="slide-container">
@@ -28,7 +28,7 @@
         <p class="p-modal">{{ card.description }}</p>
         <p class="p-modal">
           <strong><span class="default-highlight">Github</span></strong>: 
-          <a [href]="card.projectLink" target="_blank" class="github a-green">
+          <a [href]="card.projectLink" target="_blank" rel="noopener noreferrer" class="github a-green">
             {{ card.projectLink }}
           </a>
         </p>
