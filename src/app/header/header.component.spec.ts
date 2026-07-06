@@ -38,14 +38,14 @@ describe('HeaderComponent', () => {
     expect(links.length).toBe(5);
   });
 
-  it('should link to /home, /about, /skills, /portfolio and /contact', () => {
+  it('should link to /home, /about, /education, /portfolio and /contact', () => {
     const anchors: HTMLAnchorElement[] = Array.from(
       fixture.nativeElement.querySelectorAll('li.nav-item a')
     );
     const hrefs = anchors.map(a => a.getAttribute('href'));
     expect(hrefs).toContain('/home');
     expect(hrefs).toContain('/about');
-    expect(hrefs).toContain('/skills');
+    expect(hrefs).toContain('/education');
     expect(hrefs).toContain('/portfolio');
     expect(hrefs).toContain('/contact');
   });
